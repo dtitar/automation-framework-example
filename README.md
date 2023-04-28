@@ -1,0 +1,1 @@
+Example framework with junit5 - selenide - allure
