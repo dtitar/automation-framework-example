@@ -1,1 +1,1 @@
-Example framework with junit5 - selenide - allure
+automation framework example with junit5 - selenide - allure
