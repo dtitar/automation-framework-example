@@ -18,8 +18,6 @@ public class ConfigHelper {
         return ConfigFactory.create(WebConfig.class, System.getProperties());
     }
 
-
-    //Получение инстансов конфигов
     public static ApiConfig getApiConfig() {
         return ConfigFactory.newInstance()
                 .create(ApiConfig.class);

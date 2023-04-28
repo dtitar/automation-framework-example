@@ -42,12 +42,10 @@ public class AmplitudeRegistrationTest extends BaseTest {
     }
 
     @Tag("amplitude")
-    @Tag("C236124")
-    @TmsLink("236124")
-    @DisplayName("[Amplitude]. Начало регистрации")
+    @DisplayName("[Amplitude]. Registration start")
     @Test
-    void testUserRegistrationAmplitudeEvents() {
-        step("Шаг 1. Перейти на главную сайта",
+    void shouldSendRegistrationEventsToAmplitude() {
+        step("Шаг 1. Go to the main page",
                 () -> {
                     open("");
                 });
